@@ -1,0 +1,11 @@
+
+
+<div class="container col-md-12 text-center">
+  <h1 class="pageHeader">Reptile page</h1>
+  <ul class="list-group">
+    <li class="list-group-item">Name: {{rc.animal.name.$t}}</li>
+    <li class="list-group-item"><img src="{{rc.animal.media.photos.photo[2].$t}}"></li>
+    <li class="list-group-item">ID: {{rc.animal.id.$t}}</li>
+    <li class="list-group-item">A few words about {{rc.animal.name.$t}}:  {{rc.animal.description.$t}}</li>
+  </ul>
+</div>

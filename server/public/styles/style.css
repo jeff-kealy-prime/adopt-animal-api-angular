@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle');
+@import url('https://fonts.googleapis.com/css?family=Chicle|Open+Sans');
+
+body {
+  background-color: rgba(134, 40, 46, 0.62)
+}
+/*ul :hover {
+  background-color: rgb(208, 208, 214)
+}*/
+.home {
+  color: rgba(5, 5, 5, 0.83);
+  padding-top: 5px;
+}
+a:hover {
+  text-decoration: none;
+}
+.header{
+  font-size: 48px;
+  font-family: 'Chicle', cursive;
+  margin-bottom: 0;
+}
+.pageHeader {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
