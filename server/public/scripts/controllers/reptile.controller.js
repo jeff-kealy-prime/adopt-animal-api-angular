@@ -2,12 +2,12 @@ app.controller('ReptileController', ['$http', function($http){
   console.log("reptile controller running");
   var self = this;
   var key = '77675ee482874f499ddd394279f10552';
-  var baseURL = 'http://api.petfinder.com/';
+
 
   self.animal = { }
 
   self.getRandomPet = function(){
-    var query = 'http://api.petfinder.com/'; // baseURL for API
+    var query = 'https://api.petfinder.com/'; // baseURL for API
     query += 'pet.getRandom'; // selecting the method we would like to return
     query += '?key=' + key; // Giving petfinder our key
     query += '&animal=reptile';
